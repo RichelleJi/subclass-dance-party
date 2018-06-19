@@ -14,7 +14,6 @@ SpinningDancer.prototype.step = function () {
 
   var i = Math.floor(Math.random()*100);
   var j = Math.floor(Math.random()*100);
-  var f = 
   
   this.$node.css({border: '10px solid white'});
   this.$node.animate({height: i, width: j});
