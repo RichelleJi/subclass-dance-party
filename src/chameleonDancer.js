@@ -1,6 +1,6 @@
-var ChameleonDancer = function(top, left, timeBetweenSteps){
-    Dancer.apply(this, [...arguments]);
-}
+var ChameleonDancer = function(top, left, timeBetweenSteps) {
+  Dancer.apply(this, [...arguments]);
+};
 
 ChameleonDancer.prototype = Object.create(Dancer.prototype);
 ChameleonDancer.prototype.constructor = ChameleonDancer;

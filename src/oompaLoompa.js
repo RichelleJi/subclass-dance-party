@@ -14,6 +14,16 @@ OompaLoompa.prototype.step = function() {
 
   Dancer.prototype.step.call(this);
 };
+
+OompaLoompa.prototype.lineup = function() {
+  var stylesetting = {
+    top: $('body').height() * 4 / 5
+  };
+  
+  this.$node.css(stylesetting);  
+};
+
+
 /*
 OompaLoompa.prototype.setSize = function(top){
 	var scale =  Math.floor(top/$('body').height()*100) + '%';

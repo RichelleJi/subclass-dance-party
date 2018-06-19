@@ -12,7 +12,7 @@ GrandpaJoe.prototype.step = function() {
 
   Dancer.prototype.step.call(this);
   this.$node.toggle();
-  this.$node.animate({ “left”: “+=50px” }, “slow” );
+  this.$node.animate({ 'left': '+=50px' }, 'slow' );
 
   
 };

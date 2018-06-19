@@ -14,11 +14,17 @@ GrandpaJoe.prototype.step = function() {
     this.$node.remove();
   }
   Dancer.prototype.step.call(this);
-  this.$node.animate({ "left": "+=25px" }, "slow");
+  this.$node.animate({ 'left': '+=25px' }, 'slow');
 
 };
 
 GrandpaJoe.prototype.lineup = function() {
+  // var position = this.$node.position();
+  var styleSettings = {
+    top: $('body').height() * 2 / 3
+  };
   
-}
+  this.$node.css(styleSettings);
+  
+};
 
