@@ -4,10 +4,6 @@ body, html{
 body{
   margin: 0px;
   font-size: 18px;
-  background: #000 url("img/chocolate-factory.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -27,6 +23,14 @@ body, a:link, a:visited, a:active{
   border-radius:2px;
   position:absolute;
 }
+.container {
+  background: #000 url("img/chocolate-factory.jpg") no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 .oompa-loompa-pic{
   width: 50%;
@@ -42,3 +46,25 @@ body, a:link, a:visited, a:active{
   width: 30%;
   height: 30%;
 }
+
+.candy-pic {
+  width: 20%;
+  height: 20%;
+/*    position: relative;
+    -webkit-animation: mymove 2s 1; /* Safari 4.0 - 8.0 */
+    /*animation: mymove 2s 1;*/*/
+}
+
+/* Safari 4.0 - 8.0 */
+/*@-webkit-keyframes mymove {
+    0%   {top: -1px;}
+    50%  {top: 0px;}
+    100% {top: 700px;}
+}
+*/
+/* Standard syntax */
+/*@keyframes mymove {
+    0%   {top: -1px;}
+    50%  {top: 0px;}
+    100% {top: 700px;}
+}*/
